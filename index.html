@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLAVORA — Editorial Recipe Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand-wrap">
+        <span class="brand-logo">FLAVORA<span>.</span></span>
+        <span class="brand-tag">Culinary Studio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="index.html#recipes-catalog">Recipes</a>
+        <a href="recipes/cookies.html">Cookies</a>
+        <a href="recipes/brownies.html">Brownies</a>
+        <a href="recipes/shakshuka.html">Shakshuka</a>
+        <a href="recipes/risotto.html">Risotto</a>
+        <a href="index.html#kitchen-music">YouTube</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div>
+        <span class="hero-kicker">Seasonal Kitchen Collection • 10 Curated Recipes</span>
+        <h1 class="hero-title">Warm tables, <em>honest</em> flavors, and everyday craft.</h1>
+        <p class="hero-desc">
+          Explore our editorial archive of ten balanced dishes—from browned-butter pastries and skillet breakfasts to slow-simmered risottos, saffron rice, and vibrant grain bowls.
+        </p>
+        <div class="hero-actions">
+          <a href="#main-dishes" class="btn-primary">Main Dishes</a>
+          <a href="#desserts" class="btn-secondary">Desserts</a>
+          <a href="#kitchen-music" class="btn-secondary">Majid Al Mohandis — YouTube</a>
+        </div>
+      </div>
+
+      <aside class="hero-spotlight">
+        <img src="images/shakshuka.jpg" alt="Spiced Tomato & Pepper Shakshuka" class="spotlight-thumb">
+        <span class="hero-kicker">Chef's Spotlight</span>
+        <h2>Spiced Tomato &amp; Pepper Shakshuka</h2>
+        <p>Tender poached eggs in a smoky cumin and roasted pepper tomato reduction, ready in just over thirty minutes.</p>
+        <div class="meta-pills">
+          <span class="meta-pill">Prep: 10 mins</span>
+          <span class="meta-pill">Cook: 22 mins</span>
+          <span class="meta-pill">4 Servings</span>
+        </div>
+        <a href="recipes/shakshuka.html" class="btn-primary">Open Full Recipe</a>
+      </aside>
+    </div>
+  </section>
+
+  <section id="kitchen-music" class="music-section container">
+    <div class="music-card">
+      <div class="music-top">
+        <div>
+          <span class="music-badge">YouTube Kitchen Track • Majid Al Mohandis</span>
+          <h2 class="music-title">Majid Al Mohandis — Mefarfeh (Official Video)</h2>
+        </div>
+        <div class="music-links">
+          <a href="https://www.youtube.com/watch?v=mc8GCy2b6f8" target="_blank" rel="noopener noreferrer" class="btn-primary">Open on YouTube</a>
+          <a href="https://www.youtube.com/@MajedMohandes" target="_blank" rel="noopener noreferrer" class="btn-secondary">Official Channel</a>
+        </div>
+      </div>
+      <div class="music-embed-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/mc8GCy2b6f8"
+          title="Majid Al Mohandis - Mefarfeh"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <main id="recipes-catalog" class="section-block container">
+    <div class="section-header" id="main-dishes">
+      <div>
+        <p class="section-kicker">Savory Kitchen</p>
+        <h2 class="section-title">Main Dishes & Savory Plates</h2>
+        <p class="section-subtitle">Breakfast, mains, seafood, and grain bowls — select any card to open the full recipe.</p>
+      </div>
+    </div>
+
+    <div class="recipe-grid">
+        <article class="recipe-card">
+          <div>
+            <img src="images/shakshuka.jpg" alt="Spiced Tomato & Pepper Shakshuka" class="recipe-thumb">
+            <span class="category-badge">Breakfast & Brunch</span>
+            <h3>Spiced Tomato & Pepper Shakshuka</h3>
+            <p>Poached eggs nestled in a smoky roasted-pepper and cumin tomato sauce served with crusty bread.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 10 mins</span>
+              <span class="meta-pill">Cook: 22 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/shakshuka.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://moncoachgourmand.com/_next/image?q=75&url=https%3A%2F%2Fstatic.moncoachgourmand.com%2Frecipes%2Frisotto-champignons-etape-4.webp&w=1920" onerror="this.onerror=null;this.src='images/risotto.png'" referrerpolicy="no-referrer" alt="Creamy Wild Mushroom Risotto" class="recipe-thumb">
+            <span class="category-badge">Comfort Mains</span>
+            <h3>Creamy Wild Mushroom Risotto</h3>
+            <p>Slow-stirred Arborio rice infused with roasted cremini and shiitake mushrooms, thyme, and aged Parmesan.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 15 mins</span>
+              <span class="meta-pill">Cook: 28 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/risotto.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://itsonly.recipes/images/recipeimages/lemon-herb-baked-salmon.webp" onerror="this.onerror=null;this.src='images/lemon-herb-salmon.png'" referrerpolicy="no-referrer" alt="Pan-Seared Lemon Herb Salmon" class="recipe-thumb">
+            <span class="category-badge">Seafood & Light</span>
+            <h3>Pan-Seared Lemon Herb Salmon</h3>
+            <p>Crisp-skinned salmon fillets finished with bright lemon butter, garlic, capers, and fresh dill.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 10 mins</span>
+              <span class="meta-pill">Cook: 12 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/lemon-herb-salmon.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://d36musakzcdau7.cloudfront.net/esplanda/WebPage/9-1717256287.jpg" onerror="this.onerror=null;this.src='images/mediterranean-bowl.png'" referrerpolicy="no-referrer" alt="Roasted Chickpea & Herb Grain Bowl" class="recipe-thumb">
+            <span class="category-badge">Plant-Forward</span>
+            <h3>Roasted Chickpea & Herb Grain Bowl</h3>
+            <p>Crisp cumin-roasted chickpeas over fluffy grains with cucumber, cherry tomatoes, and tahini drizzle.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 15 mins</span>
+              <span class="meta-pill">Cook: 22 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/mediterranean-bowl.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="images/garlic-butter-pasta.jpg" alt="Roasted Garlic & Basil Linguine" class="recipe-thumb">
+            <span class="category-badge">Comfort Mains</span>
+            <h3>Roasted Garlic & Basil Linguine</h3>
+            <p>Silky linguine tossed in sweet confit-style garlic oil, blistered cherry tomatoes, and fresh basil.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 10 mins</span>
+              <span class="meta-pill">Cook: 15 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/garlic-butter-pasta.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://realfood.tesco.com/media/images/RFO-1400x919-Saffron-pilaf-44280034-02b6-4270-98e7-167b86476bda-0-1400x919.jpg" onerror="this.onerror=null;this.src='images/saffron-herb-rice.png'" referrerpolicy="no-referrer" alt="Saffron & Pistachio Basmati Pilaf" class="recipe-thumb">
+            <span class="category-badge">Comfort Mains</span>
+            <h3>Saffron & Pistachio Basmati Pilaf</h3>
+            <p>Fragrant long-grain basmati rice steeped with golden saffron threads, toasted pistachios, and barberries.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 12 mins</span>
+              <span class="meta-pill">Cook: 20 mins</span>
+              <span class="meta-pill">4 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/saffron-herb-rice.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+    </div>
+
+    <div style="height:56px"></div>
+
+    <div class="section-header" id="desserts">
+      <div>
+        <p class="section-kicker">Sweet Corner</p>
+        <h2 class="section-title">Desserts & Sweet Treats</h2>
+        <p class="section-subtitle">Cookies, brownies, chilled bowls, and rustic tarts — select any card to open the full recipe.</p>
+      </div>
+    </div>
+
+    <div class="recipe-grid">
+        <article class="recipe-card">
+          <div>
+            <img src="images/cookies.jpg" alt="Brown Butter Chocolate Chip Cookies" class="recipe-thumb">
+            <span class="category-badge">Bakery & Pastry</span>
+            <h3>Brown Butter Chocolate Chip Cookies</h3>
+            <p>Nutty browned butter, deep dark chocolate chunks, and crisp golden edges with a tender center.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 15 mins</span>
+              <span class="meta-pill">Cook: 11 mins</span>
+              <span class="meta-pill">16 cookies</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/cookies.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="images/brownies.jpg" alt="Fudgy Espresso Dark Brownies" class="recipe-thumb">
+            <span class="category-badge">Bakery & Pastry</span>
+            <h3>Fudgy Espresso Dark Brownies</h3>
+            <p>Dense, glossy chocolate squares with a crackly top crust and a subtle espresso depth.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 15 mins</span>
+              <span class="meta-pill">Cook: 32 mins</span>
+              <span class="meta-pill">12 squares</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/brownies.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://paleogrubs.com/wp-content/uploads/2017/09/recipe-mangochiapudding.jpg" onerror="this.onerror=null;this.src='images/mango-chia-pudding.png'" referrerpolicy="no-referrer" alt="Coconut & Cardamom Mango Chia Bowl" class="recipe-thumb">
+            <span class="category-badge">Chilled Dessert</span>
+            <h3>Coconut & Cardamom Mango Chia Bowl</h3>
+            <p>Chilled coconut-cardamom chia pudding layered with ripe mango puree and toasted coconut flakes.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 10 mins</span>
+              <span class="meta-pill">Cook: 0 mins</span>
+              <span class="meta-pill">2 servings</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/mango-chia-pudding.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+        <article class="recipe-card">
+          <div>
+            <img src="https://piovariations.cdn.podravka.net/3f07a6e2-0136-11ed-896f-eaea39b3b83d/v/592e6f18-64bd-11eb-b39f-0242ac130010/480x480-592e7c06-64bd-11eb-9989-0242ac130010.webp" onerror="this.onerror=null;this.src='images/citrus-berry-tart.png'" referrerpolicy="no-referrer" alt="Honeyed Citrus & Berry Galette" class="recipe-thumb">
+            <span class="category-badge">Bakery & Pastry</span>
+            <h3>Honeyed Citrus & Berry Galette</h3>
+            <p>Rustic folded pastry tart filled with bright orange-zest cream, berries, and wildflower honey glaze.</p>
+            <div class="meta-pills">
+              <span class="meta-pill">Prep: 20 mins</span>
+              <span class="meta-pill">Cook: 35 mins</span>
+              <span class="meta-pill">6 slices</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <span class="card-time">Step-by-step recipe</span>
+            <a href="recipes/citrus-berry-tart.html" class="btn-primary">View Recipe</a>
+          </div>
+        </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span><strong>FLAVORA.</strong> — Editorial Food &amp; Recipe Interface</span>
+      <span>10 Full Recipe Sub-Pages • Unified Typography &amp; Palette</span>
+    </div>
+  </footer>
+
+  <div class="chef-widget" aria-live="polite">
+    <div id="chef-bubble" class="chef-bubble">Chef's Tip: Tap me for kitchen cheer!</div>
+    <button type="button" class="chef-btn" onclick="cheerChef()" aria-label="Animated Chef Character">
+      <svg id="chef-svg" class="chef-svg" viewBox="0 0 140 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="70" cy="142" rx="32" ry="6" fill="#1C1917" fill-opacity="0.18"/>
+        <g class="chef-wave-arm">
+          <path d="M98 92 C115 84, 122 68, 117 56" stroke="#1C1917" stroke-width="9" stroke-linecap="round"/>
+          <circle cx="117" cy="54" r="6.5" fill="#FDE2C4" stroke="#1C1917" stroke-width="2.5"/>
+        </g>
+        <path d="M42 94 C28 102, 26 114, 36 120" stroke="#1C1917" stroke-width="9" stroke-linecap="round"/>
+        <circle cx="37" cy="121" r="6.5" fill="#FDE2C4" stroke="#1C1917" stroke-width="2.5"/>
+        <rect x="44" y="82" width="52" height="44" rx="18" fill="#FFFFFF" stroke="#1C1917" stroke-width="3"/>
+        <path d="M51 98 H89 L86 126 H54 L51 98 Z" fill="#D95D39" stroke="#1C1917" stroke-width="2.5" stroke-linejoin="round"/>
+        <circle cx="70" cy="66" r="21" fill="#FDE2C4" stroke="#1C1917" stroke-width="3"/>
+        <circle cx="55" cy="71" r="3.8" fill="#F29E8E" fill-opacity="0.65"/>
+        <circle cx="85" cy="71" r="3.8" fill="#F29E8E" fill-opacity="0.65"/>
+        <circle cx="62" cy="65" r="3" fill="#1C1917"/>
+        <circle cx="78" cy="65" r="3" fill="#1C1917"/>
+        <path d="M63 74 Q70 81 77 74" stroke="#1C1917" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+        <path d="M50 48 C42 44, 41 28, 54 24 C59 12, 81 12, 86 24 C99 28, 98 44, 90 48 Z" fill="#FFFFFF" stroke="#1C1917" stroke-width="3" stroke-linejoin="round"/>
+        <rect x="52" y="43" width="36" height="9" rx="4" fill="#FAF7F2" stroke="#1C1917" stroke-width="2.5"/>
+        <rect x="54" y="45" width="32" height="4" rx="2" fill="#D4A373"/>
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    function cheerChef() {
+      const svg = document.getElementById('chef-svg');
+      const bubble = document.getElementById('chef-bubble');
+      if (!svg || !bubble) return;
+      svg.classList.remove('cheering');
+      void svg.offsetWidth;
+      svg.classList.add('cheering');
+      const messages = [
+        "Bon appétit! Let's cook something great!",
+        "Fresh ingredients make all the difference!",
+        "Enjoy the music while you prep!"
+      ];
+      bubble.textContent = messages[Math.floor(Math.random() * messages.length)];
+    }
+  </script>
+  <section class="flavora-extra-banner" aria-label="Quick Recipe Shortcuts">
+  <h2>Quick Recipe Access</h2>
+  <p>Jump straight to any recipe page in one click.</p>
+  <div class="flavora-extra-btns">
+    <a href="recipes/cookies.html" class="flavora-extra-btn">Cookies</a>
+    <a href="recipes/brownies.html" class="flavora-extra-btn">Brownies</a>
+    <a href="recipes/shakshuka.html" class="flavora-extra-btn">Shakshuka</a>
+    <a href="recipes/risotto.html" class="flavora-extra-btn">Risotto</a>
+    <a href="recipes/lemon-herb-salmon.html" class="flavora-extra-btn secondary">Salmon</a>
+    <a href="recipes/mediterranean-bowl.html" class="flavora-extra-btn secondary">Mediterranean Bowl</a>
+    <a href="recipes/garlic-butter-pasta.html" class="flavora-extra-btn secondary">Pasta</a>
+    <a href="recipes/mango-chia-pudding.html" class="flavora-extra-btn secondary">Chia Bowl</a>
+    <a href="recipes/saffron-herb-rice.html" class="flavora-extra-btn secondary">Saffron Rice</a>
+    <a href="recipes/citrus-berry-tart.html" class="flavora-extra-btn secondary">Berry Tart</a>
+  </div>
+</section>
+
+  <script>
+  /* Creative motion: scroll reveal, hover zoom wrapper, steam on hot dishes */
+  (function () {
+    var hot = ['shakshuka','risotto','lemon-herb-salmon','garlic-butter-pasta','saffron-herb-rice'];
+    document.querySelectorAll('.recipe-card').forEach(function (card) {
+      var img = card.querySelector('.recipe-thumb');
+      if (img && !img.parentElement.classList.contains('thumb-wrap')) {
+        var wrap = document.createElement('div'); wrap.className = 'thumb-wrap';
+        img.parentNode.insertBefore(wrap, img); wrap.appendChild(img);
+        var link = card.querySelector('a[href*="recipes/"]');
+        var slug = link ? link.getAttribute('href').replace(/^.*recipes\//,'').replace('.html','') : '';
+        if (hot.indexOf(slug) > -1) {
+          card.classList.add('hot');
+          var st = document.createElement('div'); st.className = 'steam';
+          st.innerHTML = '<i></i><i></i><i></i><i></i>'; wrap.appendChild(st);
+        }
+      }
+    });
+    if (!('IntersectionObserver' in window)) return;
+    document.documentElement.classList.add('motion-on');
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.recipe-grid').forEach(function (g) {
+      g.querySelectorAll('.recipe-card').forEach(function (c, i) { c.classList.add('reveal'); c.style.setProperty('--d', ((i % 3) * 120) + 'ms'); io.observe(c); });
+    });
+    document.querySelectorAll('.section-header').forEach(function (h) { h.classList.add('reveal'); io.observe(h); });
+  })();
+  </script>
+</body>
+</html>
